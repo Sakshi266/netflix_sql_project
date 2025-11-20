@@ -20,3 +20,19 @@ Text search on cast, director, description
 Handling NULL values and formatting dates
 
 The dataset used is netflix_titles, containing information like show_id, title, type, director, cast, country, date_added, rating, duration, listed_in, description, etc.
+
+### 🛠 Tech Stack
+
+MySQL
+
+### 📂 Key SQL Tasks Covered
+
+✔ Count total movies & TV shows
+✔ Find top genres/categories
+✔ Get the first actor from cast
+✔ Clean and convert date formats
+✔ Filter data by country / rating
+✔ Identify content with sensitive keywords
+✔ Find directors or cast with missing values
+✔ Search content starring specific actors
+✔ Extract release trends
