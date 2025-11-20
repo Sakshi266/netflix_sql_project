@@ -28,11 +28,19 @@ MySQL
 ### 📂 Key SQL Tasks Covered
 
 ✔ Count total movies & TV shows
+
 ✔ Find top genres/categories
+
 ✔ Get the first actor from cast
+
 ✔ Clean and convert date formats
+
 ✔ Filter data by country / rating
+
 ✔ Identify content with sensitive keywords
+
 ✔ Find directors or cast with missing values
+
 ✔ Search content starring specific actors
+
 ✔ Extract release trends
