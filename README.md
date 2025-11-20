@@ -100,3 +100,8 @@ How Netflix’s content library has grown over the years
 
 Distribution of ratings (TV-MA, TV-14, PG, etc.)
 
+### 📦 Dataset Source
+
+You can download the dataset from Kaggle:
+
+Netflix Movies and TV Shows Dataset
