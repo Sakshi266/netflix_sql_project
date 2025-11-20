@@ -105,3 +105,7 @@ Distribution of ratings (TV-MA, TV-14, PG, etc.)
 You can download the dataset from Kaggle:
 
 Netflix Movies and TV Shows Dataset
+
+### 🤝 Contributions
+
+Feel free to fork this project, improve queries or add visualizations!
