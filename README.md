@@ -44,3 +44,37 @@ MySQL
 ✔ Search content starring specific actors
 
 ✔ Extract release trends
+
+### 📑 Example SQL Queries
+1️⃣ Count total content
+SELECT COUNT(*) AS total_titles FROM netflix_titles;
+
+2️⃣ Classify good vs bad content
+SELECT *,
+CASE 
+    WHEN description LIKE '%kill%' 
+      OR description LIKE '%violence%' THEN 'bad_content'
+    ELSE 'good_content'
+END AS category
+FROM netflix_titles;
+
+3️⃣ Extract first actor
+SELECT 
+    SUBSTRING_INDEX(cast, ',', 1) AS first_actor
+FROM netflix_titles;
+
+4️⃣ Convert date format
+SELECT 
+    STR_TO_DATE(date_added, '%M %d, %Y') AS formatted_date
+FROM netflix_titles;
+
+5️⃣ Find all titles from India
+SELECT *
+FROM netflix_titles
+WHERE country = 'India';
+
+6️⃣ Search for Salman Khan
+SELECT *
+FROM netflix_titles
+WHERE cast LIKE '%Salman Khan%';
+
