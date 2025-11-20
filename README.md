@@ -88,3 +88,15 @@ SELECT *
 FROM netflix_titles
 WHERE cast LIKE '%Salman Khan%';
 
+### 📈 Insights You Can Derive
+
+Which country produces the most content
+
+Most featured actors
+
+Popular genres
+
+How Netflix’s content library has grown over the years
+
+Distribution of ratings (TV-MA, TV-14, PG, etc.)
+
